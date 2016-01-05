@@ -7,25 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A40CA8D1C3ACD11003B206A /* PointOnImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A40CA8C1C3ACD11003B206A /* PointOnImage.m */; };
 		8AEEEDFB1C3A0A6700A05D4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEEDFA1C3A0A6700A05D4D /* main.m */; };
 		8AEEEDFE1C3A0A6700A05D4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEEDFD1C3A0A6700A05D4D /* AppDelegate.m */; };
-		8AEEEE011C3A0A6700A05D4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEEE001C3A0A6700A05D4D /* ViewController.m */; };
-		8AEEEE041C3A0A6700A05D4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AEEEE021C3A0A6700A05D4D /* Main.storyboard */; };
 		8AEEEE061C3A0A6700A05D4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AEEEE051C3A0A6700A05D4D /* Assets.xcassets */; };
-		8AEEEE091C3A0A6700A05D4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AEEEE071C3A0A6700A05D4D /* LaunchScreen.storyboard */; };
+		8AEEEE121C3A0DEA00A05D4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEEE111C3A0DEA00A05D4D /* ViewController.m */; };
+		8AEEEE151C3A0F0400A05D4D /* ZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEEE141C3A0F0400A05D4D /* ZoomView.m */; };
+		8AEEEE181C3A151600A05D4D /* DrawingPen.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEEE171C3A151600A05D4D /* DrawingPen.m */; };
+		8AEEEE1B1C3A161100A05D4D /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEEE1A1C3A161100A05D4D /* DrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A40CA8B1C3ACD11003B206A /* PointOnImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointOnImage.h; sourceTree = "<group>"; };
+		8A40CA8C1C3ACD11003B206A /* PointOnImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointOnImage.m; sourceTree = "<group>"; };
 		8AEEEDF61C3A0A6700A05D4D /* Draw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Draw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AEEEDFA1C3A0A6700A05D4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8AEEEDFC1C3A0A6700A05D4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8AEEEDFD1C3A0A6700A05D4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8AEEEDFF1C3A0A6700A05D4D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8AEEEE001C3A0A6700A05D4D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8AEEEE031C3A0A6700A05D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AEEEE051C3A0A6700A05D4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8AEEEE081C3A0A6700A05D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AEEEE0A1C3A0A6700A05D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AEEEE101C3A0DEA00A05D4D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8AEEEE111C3A0DEA00A05D4D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8AEEEE131C3A0F0400A05D4D /* ZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomView.h; sourceTree = "<group>"; };
+		8AEEEE141C3A0F0400A05D4D /* ZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomView.m; sourceTree = "<group>"; };
+		8AEEEE161C3A151600A05D4D /* DrawingPen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingPen.h; sourceTree = "<group>"; };
+		8AEEEE171C3A151600A05D4D /* DrawingPen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingPen.m; sourceTree = "<group>"; };
+		8AEEEE191C3A161100A05D4D /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		8AEEEE1A1C3A161100A05D4D /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +68,16 @@
 			children = (
 				8AEEEDFC1C3A0A6700A05D4D /* AppDelegate.h */,
 				8AEEEDFD1C3A0A6700A05D4D /* AppDelegate.m */,
-				8AEEEDFF1C3A0A6700A05D4D /* ViewController.h */,
-				8AEEEE001C3A0A6700A05D4D /* ViewController.m */,
-				8AEEEE021C3A0A6700A05D4D /* Main.storyboard */,
-				8AEEEE051C3A0A6700A05D4D /* Assets.xcassets */,
-				8AEEEE071C3A0A6700A05D4D /* LaunchScreen.storyboard */,
-				8AEEEE0A1C3A0A6700A05D4D /* Info.plist */,
+				8AEEEE101C3A0DEA00A05D4D /* ViewController.h */,
+				8AEEEE111C3A0DEA00A05D4D /* ViewController.m */,
+				8AEEEE131C3A0F0400A05D4D /* ZoomView.h */,
+				8AEEEE141C3A0F0400A05D4D /* ZoomView.m */,
+				8AEEEE191C3A161100A05D4D /* DrawingView.h */,
+				8AEEEE1A1C3A161100A05D4D /* DrawingView.m */,
+				8AEEEE161C3A151600A05D4D /* DrawingPen.h */,
+				8AEEEE171C3A151600A05D4D /* DrawingPen.m */,
+				8A40CA8B1C3ACD11003B206A /* PointOnImage.h */,
+				8A40CA8C1C3ACD11003B206A /* PointOnImage.m */,
 				8AEEEDF91C3A0A6700A05D4D /* Supporting Files */,
 			);
 			path = Draw;
@@ -74,6 +86,8 @@
 		8AEEEDF91C3A0A6700A05D4D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8AEEEE051C3A0A6700A05D4D /* Assets.xcassets */,
+				8AEEEE0A1C3A0A6700A05D4D /* Info.plist */,
 				8AEEEDFA1C3A0A6700A05D4D /* main.m */,
 			);
 			name = "Supporting Files";
@@ -110,6 +124,7 @@
 				TargetAttributes = {
 					8AEEEDF51C3A0A6700A05D4D = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9342Q5J8DX;
 					};
 				};
 			};
@@ -136,9 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AEEEE091C3A0A6700A05D4D /* LaunchScreen.storyboard in Resources */,
 				8AEEEE061C3A0A6700A05D4D /* Assets.xcassets in Resources */,
-				8AEEEE041C3A0A6700A05D4D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,32 +162,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AEEEE011C3A0A6700A05D4D /* ViewController.m in Sources */,
+				8AEEEE121C3A0DEA00A05D4D /* ViewController.m in Sources */,
+				8AEEEE151C3A0F0400A05D4D /* ZoomView.m in Sources */,
 				8AEEEDFE1C3A0A6700A05D4D /* AppDelegate.m in Sources */,
+				8AEEEE181C3A151600A05D4D /* DrawingPen.m in Sources */,
+				8A40CA8D1C3ACD11003B206A /* PointOnImage.m in Sources */,
 				8AEEEDFB1C3A0A6700A05D4D /* main.m in Sources */,
+				8AEEEE1B1C3A161100A05D4D /* DrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		8AEEEE021C3A0A6700A05D4D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8AEEEE031C3A0A6700A05D4D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8AEEEE071C3A0A6700A05D4D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8AEEEE081C3A0A6700A05D4D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8AEEEE0B1C3A0A6700A05D4D /* Debug */ = {
@@ -261,7 +259,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Draw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Xu-Menghua.Draw";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +272,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Draw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Xu-Menghua.Draw";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,6 +300,7 @@
 				8AEEEE0F1C3A0A6700A05D4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

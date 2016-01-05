@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ZoomView.h"
+#import "DrawingView.h"
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) ZoomView *zoomView;
+
+@property (nonatomic, strong) UIButton *drawBtn;
+@property (nonatomic, strong) UIButton *clearBtn;
 
 @end
-
