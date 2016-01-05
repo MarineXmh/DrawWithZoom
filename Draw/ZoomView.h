@@ -11,7 +11,6 @@
 
 @protocol ZoomViewTapDelegate <NSObject>
 - (void) zoomViewDidTap;
-
 @end
 
 @interface ZoomView : UIScrollView <UIScrollViewDelegate>

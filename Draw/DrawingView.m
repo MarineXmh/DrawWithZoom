@@ -55,12 +55,12 @@
             [pen draw];
         }
     } else {
+        //画线段
         for (NSMutableArray *line in self.linesArray) {
             for (int i = 0;i + 1 < line.count; i += 1) {
                 PointOnImage *firstPoint = line[i];
                 PointOnImage *lastPoint = line[i + 1];
                 [self.pen drawLineFirstPoint:[PointOnImage pointOnViewWithX:firstPoint.x Y:firstPoint.y scale:self.scale] LastPoint:[PointOnImage pointOnViewWithX:lastPoint.x Y:lastPoint.y scale:self.scale]];
-//                NSLog(@"1:%f,%f  2:%f,%f", firstPoint.x, firstPoint.y, lastPoint.x, lastPoint.y);
             }
         }
     }
@@ -68,6 +68,7 @@
     UIGraphicsEndImageContext();
 }
 
+//触摸事件处理
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     if (self.startFlag == 1) {
         self.pen = [[DrawingPen alloc] init];
@@ -105,6 +106,7 @@
     }
 }
 
+//清除所有涂鸦
 - (void)clear {
     [self.pathArray removeAllObjects];
     [self.linesArray removeAllObjects];

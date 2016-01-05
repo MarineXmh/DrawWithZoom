@@ -16,6 +16,7 @@
 - (void)setInitialPoint:(CGPoint)firstPoint;
 - (void)moveFromPoint:(CGPoint)startPoint toPoint:(CGPoint)endPoint;
 - (void)draw;
+//取起终点画线段
 - (void)drawLineFirstPoint:(CGPoint)firstPoint LastPoint:(CGPoint)lastPoint;
 
 @end

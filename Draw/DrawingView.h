@@ -25,6 +25,7 @@
 @property (nonatomic, assign) CGFloat scale;
 
 - (id)initWithFrame:(CGRect)frame scale:(CGFloat)scale;
+//清除所有涂鸦
 - (void)clear;
 
 @end

@@ -35,16 +35,13 @@ CGPoint midPoint(CGPoint p1, CGPoint p2) {
     [self strokeWithBlendMode:kCGBlendModeNormal alpha:self.lineAlpha];
 }
 
+//取起终点画线段
 - (void)drawLineFirstPoint:(CGPoint)firstPoint LastPoint:(CGPoint)lastPoint {
     CGContextRef context = UIGraphicsGetCurrentContext();
-    
-    // set the line properties
     CGContextSetStrokeColorWithColor(context, self.lineColor.CGColor);
     CGContextSetLineCap(context, kCGLineCapRound);
     CGContextSetLineWidth(context, self.lineWidth);
     CGContextSetAlpha(context, self.lineAlpha);
-    
-    // draw the line
     CGContextMoveToPoint(context, firstPoint.x, firstPoint.y);
     CGContextAddLineToPoint(context, lastPoint.x, lastPoint.y);
     CGContextStrokePath(context);
